@@ -2,6 +2,6 @@
 
 int main() {
 	testingTask01();
-	testingTask02();
+	testingTaskX();
 	return 0;
 }
