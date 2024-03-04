@@ -23,19 +23,19 @@ void testingTask01() {
 	cout << "Task 01 " << (result ? RIGHT : WRONG) << endl;
 }
 
-void testingTask02() {
+void testingTaskX() {
 
-	bool result = task02(3602) == "1:00:02"
-		&& task02(129700) == "12:01:40"
-		&& task02(0) == "0:00:00"
-		&& task02(1) == "0:00:01"
-		&& task02(59) == "0:00:59"
-		&& task02(60) == "0:01:00"
-		&& task02(600) == "0:10:00"
-		&& task02(3600) == "1:00:00"
-		&& task02(86399) == "23:59:59"
-		&& task02(-1) == "error"
-		&& task02(-123) == "error";
+	bool result = taskX(3602) == "1:00:02"
+		&& taskX(129700) == "12:01:40"
+		&& taskX(0) == "0:00:00"
+		&& taskX(1) == "0:00:01"
+		&& taskX(59) == "0:00:59"
+		&& taskX(60) == "0:01:00"
+		&& taskX(600) == "0:10:00"
+		&& taskX(3600) == "1:00:00"
+		&& taskX(86399) == "23:59:59"
+		&& taskX(-1) == "error"
+		&& taskX(-123) == "error";
 
-	cout << "Task 02 " << (result ? RIGHT : WRONG) << endl;
+	cout << "Task X " << (result ? RIGHT : WRONG) << endl;
 }
